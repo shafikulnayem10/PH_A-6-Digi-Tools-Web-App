@@ -3,7 +3,7 @@ import { FaShoppingCart } from "react-icons/fa";
 
 const Navbar = ({ cartCount }) => {
   return (
-    <div className="navbar bg-base-100 shadow-sm sticky top-0 z-50">
+    <div className="navbar bg-white shadow-sm sticky top-0 z-50">
       <div className="container mx-auto max-w-6xl px-4 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <img src="/rocket.png" alt="DigiTools Logo" className="w-8 h-8" />
@@ -22,8 +22,8 @@ const Navbar = ({ cartCount }) => {
             <span className="indicator-item badge badge-sm bg-purple-600 text-white border-0">
               {cartCount}
             </span>
-            <button className="btn btn-ghost btn-circle">
-              <FaShoppingCart className="text-xl" />
+            <button className="btn  bg-purple-600 rounded-full p-2">
+              <FaShoppingCart className="text-xl " />
             </button>
           </div>
           <button className="btn bg-purple-600 text-white hover:bg-purple-700 border-0 rounded-full px-6">

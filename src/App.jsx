@@ -1,4 +1,5 @@
 import './App.css'
+import Banner from './components/homepage/banner/Banner'
 import Navbar from './components/NavBar/Navbar'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
     <div>
       <Navbar cartCount={8} />
+      <Banner></Banner>
     </div>
     </>
   )
