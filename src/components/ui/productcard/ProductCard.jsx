@@ -4,7 +4,7 @@ import { TiTick } from "react-icons/ti";
 
 
 const ProductCard = ({ product, cartItems, setCartItems }) => {
-//   const [added, setAdded] = useState(false);
+
   const isInCart = cartItems.some((item) => item.id === product.id);
 
   const getTagColor = (tagType) => {
@@ -20,7 +20,7 @@ const ProductCard = ({ product, cartItems, setCartItems }) => {
       return;
     }
     setCartItems([...cartItems, product]);
-    // setAdded(true);
+   
     toast.success(`${product.name} added to cart!`);
   };
 

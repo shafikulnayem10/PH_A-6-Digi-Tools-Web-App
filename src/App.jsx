@@ -5,6 +5,7 @@ import Stats from './components/homepage/stats/Stats'
 import Navbar from './components/NavBar/Navbar'
 import Products from './components/homepage/products/Products';
   import { ToastContainer} from 'react-toastify';
+import Steps from './components/homepage/steps/Steps';
 
 
 const fetchProducts = async () => {
@@ -37,6 +38,7 @@ function App() {
       </Suspense>
          
       <ToastContainer  />
+      <Steps></Steps>
     </div>
     </>
   )
