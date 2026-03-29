@@ -4,7 +4,7 @@ import { FaShoppingCart } from "react-icons/fa";
 const Navbar = ({ cartCount }) => {
   return (
     <div className="navbar bg-base-100 shadow-sm sticky top-0 z-50">
-      <div className="container mx-auto flex justify-between items-center">
+      <div className="container mx-auto max-w-6xl px-4 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <img src="/rocket.png" alt="DigiTools Logo" className="w-8 h-8" />
           <a className="text-xl font-bold text-purple-600">DigiTools</a>
