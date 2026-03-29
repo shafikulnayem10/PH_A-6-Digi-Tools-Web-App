@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Craft compelling content with AI-powered writing assistance. Generate blogs, emails, and more in seconds.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Unlimited content generation", "50+ writing templates", "Plagiarism checker", "SEO optimization"],
+    "icon": "/writing_2327400 1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Access thousands of professionally designed templates for social media, presentations, and marketing materials.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["100+ premium templates", "ATS optimization", "Export to PDF", "Brand kit included"],
+    "icon": "/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "High-quality stock photos, videos, and illustrations for your creative projects without attribution.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["5M+ stock images", "4K video clips", "Vector illustrations", "Commercial license"],
+    "icon": "/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and workflows to save hours every week and boost your team productivity.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Workflow automation", "API integrations", "Scheduled tasks", "Analytics dashboard"],
+    "icon": "/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Funnel Builder Pro",
+    "description": "Build high-converting sales funnels and landing pages without any coding knowledge required.",
+    "price": 59,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": ["Drag & drop builder", "A/B testing", "Conversion tracking", "50+ funnel templates"],
+    "icon": "/shopping-cart.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Plan, create, and schedule all your social media content from one powerful dashboard platform.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Content calendar", "Auto-scheduling", "Analytics reports", "Hashtag suggestions"],
+    "icon": "/social-media.png"
+  }
+]
