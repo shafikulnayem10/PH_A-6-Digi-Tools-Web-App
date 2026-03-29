@@ -11,10 +11,10 @@ const Navbar = ({ cartCount }) => {
         </div>
 
         <div className="hidden md:flex items-center gap-6">
-          <a className="hover:text-purple-600 cursor-pointer font-medium">Home</a>
-          <a className="hover:text-purple-600 cursor-pointer font-medium">Products</a>
-          <a className="hover:text-purple-600 cursor-pointer font-medium">Pricing</a>
-          <a className="hover:text-purple-600 cursor-pointer font-medium">About Us</a>
+          <a className=" text-black hover:text-purple-900 cursor-pointer font-medium">Home</a>
+          <a className="text-black hover:text-purple-900 cursor-pointer font-medium">Products</a>
+          <a className="text-black hover:text-purple-900 cursor-pointer font-medium">Pricing</a>
+          <a className="text-black hover:text-purple-900 cursor-pointer font-medium">About Us</a>
         </div>
 
         <div className="flex items-center gap-4">

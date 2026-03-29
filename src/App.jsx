@@ -1,9 +1,10 @@
 import './App.css'
-import { Suspense} from "react";
+import { Suspense , useState } from "react";
 import Banner from './components/homepage/banner/Banner'
 import Stats from './components/homepage/stats/Stats'
 import Navbar from './components/NavBar/Navbar'
 import Products from './components/homepage/products/Products';
+  import { ToastContainer} from 'react-toastify';
 
 
 const fetchProducts = async () => {
@@ -12,15 +13,16 @@ const fetchProducts = async () => {
 };
 function App() {
   const productsPromise = fetchProducts();
+  const [cartItems, setCartItems] = useState([]);
   
 
   return (
     <>
-    <div>
-      <Navbar cartCount={8} />
+    <div className="bg-white min-h-screen">
+      <Navbar cartCount={cartItems.length} />
       <Banner></Banner>
       <Stats></Stats>
-      <Suspense
+     <Suspense
         fallback={
           <div className="flex justify-center py-20">
             <span className="loading loading-dots loading-xl"></span>
@@ -29,9 +31,12 @@ function App() {
       >
         <Products
           productsPromise={productsPromise}
-          
+          cartItems={cartItems}
+          setCartItems={setCartItems}
         />
       </Suspense>
+         
+      <ToastContainer  />
     </div>
     </>
   )
