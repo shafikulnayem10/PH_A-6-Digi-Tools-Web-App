@@ -1,5 +1,5 @@
 import './App.css'
-import Navbar from './NavBar/Navbar'
+import Navbar from './components/NavBar/Navbar'
 
 function App() {
   
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <div>
-      <Navbar></Navbar>
+      <Navbar cartCount={8} />
     </div>
     </>
   )
