@@ -61,7 +61,7 @@ const ProductCard = ({ product, cartItems, setCartItems }) => {
                 : "bg-purple-600 text-white hover:bg-purple-700"
             }`}
           >
-            {isInCart ? "Added" : "Buy Now"}
+            {isInCart ? "Added to cart" : "Buy Now"}
           </button>
         </div>
       </div>
