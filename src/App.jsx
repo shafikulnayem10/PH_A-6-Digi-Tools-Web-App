@@ -6,6 +6,7 @@ import Navbar from './components/NavBar/Navbar'
 import Products from './components/homepage/products/Products';
   import { ToastContainer} from 'react-toastify';
 import Steps from './components/homepage/steps/Steps';
+import Pricing from './components/homepage/pricing/Pricing';
 
 
 const fetchProducts = async () => {
@@ -39,6 +40,7 @@ function App() {
          
       <ToastContainer  />
       <Steps></Steps>
+      <Pricing></Pricing>
     </div>
     </>
   )
