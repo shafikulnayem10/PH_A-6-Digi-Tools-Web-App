@@ -26,7 +26,7 @@ const Banner = () => {
                 Explore Products
               </button>
               <button className="btn btn-outline border-purple-600 text-purple-600 hover:bg-purple-50 hover:border-purple-600 rounded-full px-8 gap-2">
-                <FaPlay className="text-xs" />
+               <img src="/Play.png" alt="Play Icon" className="w-4 h-4" />
                 Watch Demo
               </button>
             </div>
