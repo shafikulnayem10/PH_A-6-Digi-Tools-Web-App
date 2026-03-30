@@ -8,6 +8,7 @@ import Products from './components/homepage/products/Products';
 import Steps from './components/homepage/steps/Steps';
 import Pricing from './components/homepage/pricing/Pricing';
 import CTA from './components/homepage/cta/CTA';
+import Footer from './components/homepage/footer/Footer';
 
 
 const fetchProducts = async () => {
@@ -36,13 +37,18 @@ function App() {
           productsPromise={productsPromise}
           cartItems={cartItems}
           setCartItems={setCartItems}
-        />
+        >
+          
+        </Products>
+        
       </Suspense>
+   <ToastContainer position="top-right" autoClose={2000} />
          
-      <ToastContainer  />
+   
       <Steps></Steps>
       <Pricing></Pricing>
       <CTA></CTA>
+      <Footer></Footer>
     </div>
     </>
   )
