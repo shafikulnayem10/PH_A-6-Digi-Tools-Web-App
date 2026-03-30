@@ -1,16 +1,32 @@
-# React + Vite
+#  DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern and full-featured **Premium Digital Tools** marketplace built with React and Tailwind CSS that helping creators, freelancers, and teams supercharge their digital workflow.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Technologies Used
 
-## React Compiler
+- React — Component-based UI library
+- Vite — Fast development build tool
+- Tailwind CSS — Utility-first CSS framework
+- DaisyUI  — Pre-built accessible UI components
+ 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Features
+
+###  Smart Cart Management
+Add products to  cart, remove individual items, and proceed to checkout  with real-time toast notifications powered by React Toastify. The cart count updates live in the Navbar.
+
+###  Dynamic Product Catalog
+Browse 6+ premium digital tools displayed in a responsive 3-column grid. Each card shows the tool's icon, description, price, billing period, tag badge , and a feature list.
+
+###  Transparent Pricing Plans
+Three clearly defined pricing tiers such as Starter, Pro, and Enterprise  with a visually highlighted Pro plan, making it easy for users to compare and choose the right plan for their needs.
+
+---
+
+
+
