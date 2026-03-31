@@ -53,6 +53,7 @@ const ProductCard = ({ product, cartItems, setCartItems }) => {
             <span className="text-gray-400 text-sm">/{product.period}</span>
           </div>
           <button
+            type = "button"
             onClick={handleAddToCart}
             disabled={isInCart}
             className={`btn rounded-full px-6 border-0 ${
