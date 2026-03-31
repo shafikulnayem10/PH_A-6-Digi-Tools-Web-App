@@ -10,7 +10,7 @@ const Banner = () => {
           {/* Left  */}
           <div className="flex-1 text-center md:text-left">
             <span className="inline-block bg-purple-100 text-purple-600 text-sm font-semibold px-4 py-1 rounded-full mb-4">
-              <BsRocketTakeoff className="inline-block mr-2" />
+              <img src="/group-5.png" alt="Round Icon" className="w-4 h-4 inline-block mr-2" />
               New: AI-Powered Tools Available
             </span>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
