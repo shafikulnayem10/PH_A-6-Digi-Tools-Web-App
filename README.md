@@ -6,10 +6,10 @@
 
 ##  Technologies Used
 
-- React — Component-based UI library
-- Vite — Fast development build tool
-- Tailwind CSS — Utility-first CSS framework
-- DaisyUI  — Pre-built accessible UI components
+- React -> Component-based UI library
+- Vite -> Fast development build tool
+- Tailwind CSS -> Utility-first CSS framework
+- DaisyUI  -> Pre-built accessible UI components
  
 
 
